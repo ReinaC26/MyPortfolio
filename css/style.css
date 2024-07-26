@@ -84,6 +84,45 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #FF9000;
 }
 
+#intro-background
+canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.intro body {
+  
+  overflow: hidden;
+}
+
+.intro a {
+  
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: calc( 100% - 200px );
+  top: calc( 100% - 130px );
+}
+#interactive-image {
+  
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 10; /* Ensure it is on top */
+  pointer-events: auto; /* Ensure it is interactable */
+}
+
+#interactive-image img {
+  display: block;
+  width: 100%; /* Or set a specific width */
+  height: auto;
+}
+
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
@@ -92,6 +131,14 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 600px;
   width: 100%;
+}
+.fh5co-cover canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure canvas is below content */
 }
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
@@ -217,7 +264,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fh5co-header .display-tc .fh5co-social-icons li a i,
-.fh5co-cover .display-tc .fh5co-social-icons li a i {
+.fh5co-cover .display-tc .fh5co-social-icons li a i{
   font-size: 30px;
 }
 
@@ -306,9 +353,18 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom: none;
 }
 
+#fh5co-work {
+  background-color: #333; /* Ensure the background color is applied */
+  border-radius: 50px; /* Adjust the value as needed */
+  padding: 50px; /* Optional: Add padding for better spacing */
+  max-width: 95%;
+  margin: 20px auto; /* Center the box horizontally with a 20px margin */
+
+}
+
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #242423;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -532,7 +588,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #86c0ff;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -1111,9 +1167,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: #86c0ff;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid #86c0ff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
