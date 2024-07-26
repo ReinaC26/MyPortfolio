@@ -1224,9 +1224,9 @@ input[type="text"] {
 }
 
 .btn-warning {
-  background: #f0ad4e;
+  background: #5bc0de;
   color: #fff;
-  border: 2px solid #f0ad4e;
+  border: 2px solid #5bc0de;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
   background: #eea236 !important;
@@ -1234,11 +1234,11 @@ input[type="text"] {
 }
 .btn-warning.btn-outline {
   background: transparent;
-  color: #f0ad4e;
-  border: 2px solid #f0ad4e;
+  color: #5bc0de;
+  border: 2px solid #5bc0de;
 }
 .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
-  background: #f0ad4e;
+  background: #5bc0de;
   color: #fff;
 }
 
