@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 #page {
@@ -269,7 +269,7 @@ canvas {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #86c0ff;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -421,7 +421,7 @@ canvas {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #86c0ff;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -458,7 +458,7 @@ canvas {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #86c0ff;
 }
 
 .fh5co-heading {
@@ -1037,6 +1037,7 @@ canvas {
   padding: 50px 0;
   float: left;
   width: 100%;
+  color:rgba(136, 136, 136, 0.6)
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
@@ -1177,11 +1178,11 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #5bc0de;
-  border: 2px solid #5bc0de;
+  color: #86c0ff;
+  border: 2px solid #86c0ff;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #5bc0de;
+  background: #86c0ff;
   color: #fff;
 }
 
@@ -1205,9 +1206,9 @@ input[type="text"] {
 }
 
 .btn-info {
-  background: #5bc0de;
+  background: #86c0ff;
   color: #fff;
-  border: 2px solid #5bc0de;
+  border: 2px solid #86c0ff;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active {
   background: #46b8da !important;
@@ -1215,8 +1216,8 @@ input[type="text"] {
 }
 .btn-info.btn-outline {
   background: transparent;
-  color: #5bc0de;
-  border: 2px solid #5bc0de;
+  color: #86c0ff;
+  border: 2px solid #86c0ff;
 }
 .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
   background: #5bc0de;
@@ -1224,9 +1225,9 @@ input[type="text"] {
 }
 
 .btn-warning {
-  background: #5bc0de;
+  background: #86c0ff;
   color: #fff;
-  border: 2px solid #5bc0de;
+  border: 2px solid #86c0ff;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
   background: #5bc0de !important;
@@ -1234,11 +1235,11 @@ input[type="text"] {
 }
 .btn-warning.btn-outline {
   background: transparent;
-  color: #5bc0de;
-  border: 2px solid #5bc0de;
+  color: #86c0ff;
+  border: 2px solid #86c0ff;
 }
 .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
-  background: #5bc0de;
+  background: #86c0ff;
   color: #fff;
 }
 
@@ -1340,6 +1341,25 @@ input[type="text"] {
   height: 100%;
   z-index: 9999;
   background: url(../images/loader.gif) center no-repeat #fff;
+}
+
+#button
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 20px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.button:hover {
+  background-color: #86c0ff; /* Darker shade on hover */
 }
 
 .js .animate-box {
