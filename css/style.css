@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #86c0ff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #86c0ff;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #86c0ff;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #86c0ff;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #86c0ff;
 }
 
 #intro-background
@@ -147,7 +147,7 @@ canvas {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: #86c0ff;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -304,7 +304,7 @@ canvas {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #86c0ff !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -1041,6 +1041,7 @@ canvas {
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
+  color:rgba(136, 136, 136, 0.6)
 }
 
 .contact-info {
