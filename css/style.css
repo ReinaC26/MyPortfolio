@@ -105,6 +105,7 @@ canvas {
   left: calc( 100% - 200px );
   top: calc( 100% - 130px );
 }
+
 #interactive-image {
   
   display: block;
@@ -123,10 +124,11 @@ canvas {
   height: auto;
 }
 
+/*controls the background image*/
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   position: relative;
   height: 600px;
@@ -149,10 +151,14 @@ canvas {
   right: 0;
   background: #86c0ff;
 }
+/*controls the intro image*/
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
   width: 100%;
   display: table;
+  /* border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(-4px 5px 3px #c8a98e); */
 }
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
@@ -415,6 +421,7 @@ canvas {
   display: inline-block;
   zoom: 1;
   *display: inline;
+  margin-right:10px;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
@@ -857,7 +864,7 @@ canvas {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: #86c0ff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1346,15 +1353,19 @@ input[type="text"] {
 
 #button
 .button {
-  display: inline-block;
-  padding: 10px 20px;
+  display: inline-flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 50px; /* Set a fixed height for the button */
+  line-height: 50px; /* Set line height to match button height */
+  padding: 10 10px; /* Remove vertical padding, keep horizontal padding */
   font-size: 16px;
   font-weight: bold;
   color: #fff;
   text-align: center;
   text-decoration: none;
   border-radius: 20px;
-  border: 20px;
+  border: 2px solid;
   transition: background-color 0.3s ease;
   
 }
